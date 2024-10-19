@@ -4,20 +4,23 @@ void main() {
   // runApp(const MyApp());
   runApp(
     MaterialApp(
-      home:Scaffold(
+
+      home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          title:Text("I Am Rich"),
-          backgroundColor: Colors.blueGrey[900],          
+          title: const Text("I Am Rich"),
+          backgroundColor: const Color.fromARGB(255, 194, 235, 255),
         ),
-        body: Center(
-          child: Image(image: NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
-           ),
+        body: const Center(
+          child: Image(
+            image:
+                NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
           ),
         ),
       ),
-    );
-
+        debugShowCheckedModeBanner: false //Hide Debug Mode Banner
+    ),
+  );
 }
 
 // class MyApp extends StatelessWidget {

@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
         ),
         home: MyHomePage(),
+        debugShowCheckedModeBanner: false,  // 添加这一行来移除 debug banner
       ),
     );
   }

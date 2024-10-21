@@ -1,1 +1,0 @@
- /Users/magiclab/Downloads/AppDev/i_am_rich/.dart_tool/flutter_build/72edb4e8c0ac415848ca30b715b00069/native_assets.yaml: 

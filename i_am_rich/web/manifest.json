@@ -1,6 +1,6 @@
 {
-    "name": "i_am_rich",
-    "short_name": "i_am_rich",
+    "name": "main",
+    "short_name": "main",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
